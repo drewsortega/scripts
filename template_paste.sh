@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ${HOME}
+cd ${HOME}/.templates
 source="$(ls | rofi -dmenu -p "Paste template:")";
 
 #xclip -selection clipboard < $source
